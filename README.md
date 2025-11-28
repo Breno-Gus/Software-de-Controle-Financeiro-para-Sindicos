@@ -22,13 +22,13 @@ Tabelas para síndicos, prédios, moradores, apartamentos e despesas
 Relacionamentos organizando pagamentos e inadimplência
 
 # ⚙️ Como executar
-# Clone o repositório
+# 1-Clone o repositório
 git clone <seu-repo>
 
-# Configure o banco MySQL
+# 2-Configure o banco MySQL
 Importe o script SQL fornecido no projeto
 
-# Ajuste as credenciais no arquivo de configuração
+# 3-Ajuste as credenciais no arquivo de configuração
 Inicie o servidor PHP (XAMPP, LAMP ou php -S)
 
 Acesse pelo navegador e faça o login do síndico ou administrador (email=admin, senha=123).
