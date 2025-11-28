@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5F4E94;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+    background-color: #211b35;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+html, body {
+    height: 100%; 
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+article {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.red {
+    color: #bd1e1e;
+}
+
+.barra {
+    background-color: white;
+    width: 100%;
+    height: 5px;
+}
+.aba {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.janela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 10px;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.janela span {
+    position: relative;
+    z-index: 1;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    transition: color 0.2s;
+}
+
+.janela span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: rgb(132, 191, 255);
+    opacity: 0;
+    transform: scale(1.2);
+    transition: opacity 0.2s;
+    z-index: -1;
+}
+
+.janela:hover span::after {
+    opacity: 1;
+}
+
+
+
+

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5F4E94;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+.box-center {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: #FBFBFB;
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    width: 80%;
+}
+
+form p {
+    width: 100%;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+
+input, select {
+    width: 100%;
+    height: 1.5rem;
+    border: 1px solid #D2D2D2;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.tem {
+    width: 20rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.aster {
+    color: red;
+}
+
+.cadastro {
+    width: 70%;
+    height: 10%;
+    background-color: #82CBEC;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    padding: 0;
+}
+
+.cadastro:hover {
+    transition: 0.3s;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.click:hover {
+    transition: 0.3s;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    flex: 1;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title-table {
+    font-size: 1.5rem;
+    background-color: white;
+    width: auto;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#table th, #table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#table th {
+    background-color: #f2f2f2;
+}
+
+#table td {
+    background-color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+#logoutBtn {
+    background-color: #7e6bb8;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 550;
+    font-size: 1.5rem;
+    height: 100%;
+}
+
+#logoutBtn:hover {
+    transition: 0.2s;
+    opacity: 80%;
+    scale: 1.05;
+}
+
+.adicionar, .relatorio, .apagar, .editar, .check, .block, .detalhes {
+    border-radius: 1rem;
+    border: 0;
+}
+
+.adicionar:hover, .relatorio:hover, .apagar:hover, .editar:hover, .check:hover, .block:hover, .detalhes:hover {
+    transition: 0.2s;
+    opacity: 80%;
+    scale: 1.1;
+}
+
+.adicionar:hover, .check:hover {
+    color: green;
+}
+
+.relatorio:hover {
+    color: blue;
+}
+
+.apagar:hover, .block:hover {
+    color: rgb(186, 0, 37);
+}
+
+.editar:hover {
+    color: rgb(64, 128, 223);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .box-center {
+        width: 70%;
+        height: 100%;
+    }
+
+    form {
+        width: 80%;
+        height: 100%;
+        font-size: 2rem;
+    }
+
+    .centro {
+        height: 100%;
+    }
+
+    input, select {
+        height: 2.5rem;
+    }
+
+    .tem {
+        width: 100%;
+        margin-bottom: 2rem;
+        font-weight: 350;
+    }
+
+    .cadastro {
+        font-size: 2rem;
+        font-weight: 400;
+        width: 60%;
+        height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .box-center {
+        width: 40%;
+        height: 100%;
+    }
+
+    form {
+        width: 80%;
+        height: 100%;
+        font-size: 1rem;
+    }
+
+    .centro {
+        height: 100%;
+    }
+
+    input, select {
+        height: 1.5rem;
+    }
+
+    .tem {
+        width: 100%;
+        margin-bottom: 2rem;
+        font-weight: 350;
+    }
+
+    .cadastro {
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: 50%;
+        height: 3rem;
+    }
+}
